@@ -1,3 +1,4 @@
+# Deploy
 node{
   stage('SCM Checkout'){
   //it calls git groovy function with our arguments

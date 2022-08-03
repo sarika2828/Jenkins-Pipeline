@@ -1,4 +1,4 @@
-# Tag Github repo with version prefix from version.txt and server 
+## Tag Github repo with version prefix from version.txt and server 
 patch + 1
 prefix=$(cat ${TRAVIS_BUILD_DIR}/version.txt)
 latest_tag=$(git ls-remote --tags origin | cut -f 3 -d '/' | grep 

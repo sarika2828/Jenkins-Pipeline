@@ -1,3 +1,4 @@
+# Docker pull script
 node {
     stage('scm checkout') { 
         git credentialsId: 'github', url: 'https://github.com/sunil3456/openmrs-core.git'
